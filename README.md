@@ -5,7 +5,8 @@ This repository contains a notebook implementation of three foundational autoreg
 1. **Fully Visible Sigmoid Belief Network (FVSBN)**
 2. **Neural Autoregressive Distribution Estimation (NADE)**
 3. **Masked Autoencoder for Distribution Estimation (MADE)**
-
+4. 
+The Models were discussed in detail in the Deep Generative Models (CS236) stanford course and this is just an attempt of using them.
 The models are trained on the **binarized MNIST dataset** to estimate the joint distribution of binary pixel values in handwritten digits.
 
 ## Models Overview
@@ -21,7 +22,7 @@ MADE is an extension of NADE, introducing **masking** to the weight matrices of 
 
 ## Dataset
 
-The models are trained on the **binarized MNIST dataset**. The dataset consists of grayscale images of handwritten digits (0-9), where the pixel values are binarized into black and white.
+The models are trained for **20 Epochs** on the **binarized MNIST dataset**. The dataset consists of grayscale images of handwritten digits (0-9), where the pixel values are binarized into black and white.
 
 ![](Outputs/output1.png)
 
