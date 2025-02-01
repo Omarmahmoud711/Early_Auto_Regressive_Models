@@ -24,6 +24,8 @@ MADE is an extension of NADE, introducing **masking** to the weight matrices of 
 
 The models are trained for **20 Epochs** on the **binarized MNIST dataset**. The dataset consists of grayscale images of handwritten digits (0-9), where the pixel values are binarized into black and white.
 
+## Sample Outputs:
+
 ![](Outputs/output1.png)
 
 ![](Outputs/output2.png)
